@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,26 @@
     <link rel="stylesheet" href="style.css">
     <title>Dynamic Table</title>
 </head>
+
 <body>
-    
+    <div>
+        <input id="name" type="text" placeholder="Enter Name">
+        <input id="email" type="email" placeholder="Enter email">
+        <input id="number" type="number" placeholder="Enter Phone Number">
+        <button id="add_btn">ADD</button>
+    </div>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone No</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
 </body>
 <script src="app.js"></script>
 </html>
