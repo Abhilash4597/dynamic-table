@@ -1,7 +1,7 @@
-const button = document.querySelector('#add_btn')
-const inputName = document.querySelector('#name')
-const email = document.querySelector('#email')
-const number = document.querySelector('#number')
+const button = document.getElementById('add_btn')
+const inputName = document.getElementById('name')
+const email = document.getElementById('email')
+const number = document.getElementById('number')
 const tablebody = document.querySelector('tbody')
 
 button.onclick = ()=>{
